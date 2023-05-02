@@ -130,7 +130,7 @@ public class Main extends Application {
 			  return;
 		  }
 		  
-		  for(int i = snake.size() - 1; i>= 1; i++)
+		  for(int i = snake.size() - 1; i>= 1; i--)
 		  {
 			  snake.get(i).x = snake.get(i - 1).x;
 			  snake.get(i).y = snake.get(i - 1).y;
